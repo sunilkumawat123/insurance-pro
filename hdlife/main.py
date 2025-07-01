@@ -11,7 +11,7 @@ df['sex']=lb.fit_transform(df["sex"])
 df['smoker']=lb.fit_transform(df['smoker'])
 df['region']=lb.fit_transform(df['region'])
 
-print(df.head(2))
+print(df.head(4))
 
 x=df.drop(columns=['charges'])
 y=df['charges']
